@@ -1,9 +1,10 @@
-package com.app.dao;
+package com.app.repositories;
 
-import com.app.entity.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
+
+import com.app.domain.Country;
 
 @CrossOrigin("http://localhost:4200")
 @RepositoryRestResource(collectionResourceRel = "countries", path = "countries")

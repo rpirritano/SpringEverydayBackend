@@ -20,15 +20,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.app.dao.RoleRepository;
-import com.app.dao.UserRepository;
-import com.app.entity.ERole;
-import com.app.entity.Role;
-import com.app.entity.User;
+import com.app.domain.ERole;
+import com.app.domain.Role;
+import com.app.domain.User;
 import com.app.payload.request.LoginRequest;
 import com.app.payload.request.SignupRequest;
 import com.app.payload.response.JwtResponse;
 import com.app.payload.response.MessageResponse;
+import com.app.repositories.RoleRepository;
+import com.app.repositories.UserRepository;
 import com.app.security.jwt.JwtUtils;
 import com.app.security.services.UserDetailsImpl;
 
@@ -127,3 +127,4 @@ public class AuthController {
 		return ResponseEntity.ok(new MessageResponse("User registered successfully!"));
 	}
 }
+

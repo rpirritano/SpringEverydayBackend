@@ -1,15 +1,15 @@
 package com.app.config;
 
-import com.app.entity.Country;
-import com.app.entity.Product;
-import com.app.entity.ProductCategory;
-import com.app.entity.State;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 import org.springframework.http.HttpMethod;
+
+import com.app.domain.Country;
+import com.app.domain.Product;
+import com.app.domain.ProductCategory;
+import com.app.domain.State;
 
 import javax.persistence.EntityManager;
 import javax.persistence.metamodel.EntityType;

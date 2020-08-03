@@ -1,7 +1,8 @@
 package com.app.service;
 
-import com.app.entity.Order;
 import org.springframework.validation.annotation.Validated;
+
+import com.app.domain.Order;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;

@@ -1,6 +1,6 @@
 package com.app.dto;
 
-import com.app.entity.Product;
+import com.app.domain.Product;
 
 public class OrderProductDto {
 

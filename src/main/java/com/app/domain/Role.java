@@ -1,4 +1,4 @@
-package com.app.entity;
+package com.app.domain;
 
 import javax.persistence.*;
 

@@ -1,4 +1,4 @@
-package com.app.entity;
+package com.app.domain;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;

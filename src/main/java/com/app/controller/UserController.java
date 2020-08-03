@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.app.dao.UserRepository;
-import com.app.entity.AdminProduct;
-import com.app.entity.User;
+import com.app.domain.AdminProduct;
+import com.app.domain.User;
+import com.app.repositories.UserRepository;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")

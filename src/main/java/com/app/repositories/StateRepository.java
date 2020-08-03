@@ -1,11 +1,12 @@
-package com.app.dao;
+package com.app.repositories;
 
 
-import com.app.entity.State;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
+
+import com.app.domain.State;
 
 import java.util.List;
 

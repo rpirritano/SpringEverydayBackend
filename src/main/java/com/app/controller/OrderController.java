@@ -1,10 +1,10 @@
 package com.app.controller;
 
+import com.app.domain.Order;
+import com.app.domain.OrderProduct;
+import com.app.domain.OrderStatus;
 import com.app.dto.OrderProductDto;
 import com.app.exception.ResourceNotFoundException;
-import com.app.entity.Order;
-import com.app.entity.OrderProduct;
-import com.app.entity.OrderStatus;
 import com.app.service.OrderProductService;
 import com.app.service.OrderService;
 import com.app.service.ProductService;

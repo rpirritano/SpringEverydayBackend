@@ -1,7 +1,8 @@
 package com.app.service;
 
-import com.app.entity.Order;
-import com.app.dao.OrderRepository;
+import com.app.domain.Order;
+import com.app.repositories.OrderRepository;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

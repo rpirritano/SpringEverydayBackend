@@ -16,10 +16,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-
-
-import com.app.entity.AdminProduct;
-import com.app.dao.AdminProductRepository;
+import com.app.domain.AdminProduct;
+import com.app.repositories.AdminProductRepository;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")

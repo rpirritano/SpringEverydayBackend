@@ -1,8 +1,9 @@
-package com.app.dao;
+package com.app.repositories;
 
-import com.app.entity.OrderProduct;
-import com.app.entity.OrderProductPK;
 import org.springframework.data.repository.CrudRepository;
+
+import com.app.domain.OrderProduct;
+import com.app.domain.OrderProductPK;
 
 public interface OrderProductRepository extends CrudRepository<OrderProduct, OrderProductPK> {
 }

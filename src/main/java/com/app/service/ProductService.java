@@ -1,7 +1,8 @@
 package com.app.service;
 
-import com.app.entity.Product;
 import org.springframework.validation.annotation.Validated;
+
+import com.app.domain.Product;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;

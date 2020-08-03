@@ -2,8 +2,9 @@ package com.app.service;
 
 
 import com.app.exception.ResourceNotFoundException;
-import com.app.entity.Product;
-import com.app.dao.ProductRepository;
+import com.app.repositories.ProductRepository;
+import com.app.domain.Product;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
